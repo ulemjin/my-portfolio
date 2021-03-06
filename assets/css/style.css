@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: #1F3541;
-    --secondary-color: #5289B5;
-    --tertiary-color: #AFD8F2;
+    --primary-color: #09B6F6;
+    --secondary-color: #0A34C1;
+    --tertiary-color: #07C398;
 }
 
 body {
@@ -30,7 +30,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 header nav {
@@ -65,7 +65,7 @@ header nav ul li a {
     max-width: 100%;
     padding: 25px;
     align-self: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .hero img {
