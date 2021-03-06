@@ -25,13 +25,12 @@ header {
 }
 
 header h1 {
-    color: var(--secondary-color);
     font: 36px bold;
 }
 
 header a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
 
 header nav {
@@ -49,3 +48,30 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
 }
+
+.hero {
+    background-image: url("../images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero div {
+    max-width: 100%;
+    padding: 25px;
+    align-self: center;
+    color: var(--primary-color);
+}
+
+.hero img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+}
+
