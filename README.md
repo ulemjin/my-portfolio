@@ -8,7 +8,7 @@ To showcase my work for prospective employers and clients. This page demonstrate
 * Run-Buddy link is fully functional. 
 * I referenced my Run-Buddy code to guide me in a general direction. All sections were modified appropriately. 
 * HTML and CSS were commented according to section for ease of navigation. 
-* Media Query breakpoints available for 924px and 575px. I found these breakpoints to be the most suitable on the level of content on my page. 
+* Media Query breakpoints available for 924px and 575px. I found these breakpoints to be the most suitable for the level of content on my page. 
 * I consolidated my code to the best of my abilities by using class attributes and flexbox.
 
 ## Website
