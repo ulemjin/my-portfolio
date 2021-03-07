@@ -25,7 +25,8 @@ header {
 }
 
 header h1 {
-    font: 36px bold;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 header a {
@@ -56,7 +57,7 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-attachment: fixed;
     background-position: 80%;
 }
@@ -64,7 +65,8 @@ header nav ul li a {
 .hero div {
     max-width: 100%;
     padding: 25px;
-    align-self: center;
+    justify-content: flex-end;
+    align-items: center;
     color: var(--secondary-color);
 }
 
@@ -73,5 +75,29 @@ header nav ul li a {
     height: auto;
     border-radius: 50%;
     margin: 10px;
+}
+
+.bio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.bio h2, .work h2, .contact h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    border-right: 2px solid;
+    padding-right: 20px;
+    width: 30%;
+}
+
+.bio p {
+    line-height: 1.7;
+    width: 70%;
+    font-size: 20px;
+    text-align: left;
 }
 
