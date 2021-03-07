@@ -264,11 +264,30 @@ footer {
 
     .projects {
         flex-flow: column wrap;
+        margin: 0 auto;
+    }
+
+    .project {
+        padding: 15px 0;
+    }
+
+    .projects img {
+        height: 250px;
     }
 
     .contacts {
         width: 100%;
         padding: 15px;
         margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 26px;
     }
 }
