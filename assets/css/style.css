@@ -103,13 +103,19 @@ h2 {
 }
 
 .projects {
-    display: flexbox;
+    display: flex;
     flex-flow: row wrap;
     width: 70%;
 }
 
-.projects img {
+.project {
+    margin: 0 auto;
     padding: 15px 30px;
+    width: 35%;
+}
+
+img {
+    width: 100%;
 }
 
 .flex-row {
