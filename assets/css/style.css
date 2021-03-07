@@ -106,7 +106,7 @@ header nav ul li a:hover {
     border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-/* styling for about me section */
+/* styling for sections */
 h2 {
     color: var(--primary-color);
     font-size: 36px;
@@ -115,16 +115,10 @@ h2 {
     border-right: 5px solid;
     padding: 20px 20px 0 0;
     width: 25%;
+    margin: revert;
 }
 
-/*.bio {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: flex-start;
-}*/
-
-
+/* about me section */ 
 .bio p {
     line-height: 1.7;
     width: 75%;
@@ -133,7 +127,7 @@ h2 {
     padding: 20px;
 }
 
-/* styling for my work section */
+/* my work section */
 .projects {
     display: flex;
     flex-flow: row wrap;
@@ -154,6 +148,11 @@ h2 {
 .projects img {
     width: 100%;
     border: 5px solid var(--tertiary-color);
+    opacity: 0.65;
+}
+
+.projects img:hover {
+    opacity: 1.0;
 }
 
 .project div {
@@ -177,16 +176,17 @@ h2 {
     line-height: 1.7;
 }
 
-/* styling for contact me section */
+/* contact me section */
 .contacts {
     width: 75%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .contacts a {
-    font-size: 26px;
+    font-size: 2vw;
     font-weight: bold;
     color: var(--secondary-color);
     text-decoration: none;
@@ -207,4 +207,68 @@ footer {
     display: flex;
     flex-flow: row wrap;
     scroll-margin-top: 3em;
+}
+
+/* Media Queries for smaller screen */
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero {
+        flex-flow: column-reverse;
+    }
+
+    .hook {
+        text-align: center;
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    h2 {
+        border-bottom: 5px solid;
+        border-right: none;
+        padding: 10px;
+        text-align: center;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .flex-row {
+        justify-content: center;
+        scroll-margin-top: 0;    
+    }
+
+    .bio p {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .projects {
+        flex-flow: column wrap;
+    }
+
+    .contacts {
+        width: 100%;
+        padding: 15px;
+        margin: 10px auto;
+    }
 }
