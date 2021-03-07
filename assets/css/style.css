@@ -193,6 +193,16 @@ h2 {
     border-bottom: 5px solid var(--secondary-color);
 }
 
+/* styling for footer */
+footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 10px 35px;
+    font-size: 17px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
 .flex-row {
     display: flex;
     flex-flow: row wrap;
