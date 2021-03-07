@@ -5,14 +5,14 @@
 }
 
 :root {
-    --primary-color: #09B6F6;
-    --secondary-color: #0A34C1;
-    --tertiary-color: #07C398;
+    --primary-color: #E79A5F;
+    --secondary-color: #205E80;
+    --tertiary-color: #06b189;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     background-color: #f8f8f8;
 }
 
@@ -66,7 +66,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -122,7 +122,7 @@ h2 {
 .bio p {
     line-height: 1.7;
     width: 75%;
-    font-size: 20px;
+    font-size: 17px;
     text-align: left;
     padding: 20px;
 }
@@ -156,11 +156,15 @@ h2 {
 }
 
 .project div {
-    background-color: rgba(7, 195, 152, 0.5);
+    background-color: rgba(6, 177, 137, 0.5);
     padding: 5px 10px 5px 15px;
     position: absolute;
     bottom: 40px;
-    left: 30px;
+    left: 34px;
+}
+
+.project div:hover {
+    background-color: rgba(6, 177, 137, 1.0);
 }
 
 .project h3 {
@@ -209,8 +213,8 @@ footer {
     scroll-margin-top: 3em;
 }
 
-/* Media Queries for smaller screen */
-@media screen and (max-width: 768px) {
+/* Media Queries for smaller screens */
+@media screen and (max-width: 924px) {
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -272,7 +276,12 @@ footer {
     }
 
     .projects img {
-        height: 250px;
+        height: 350px;
+    }
+
+    .project div {
+        bottom: 40px;
+        left: 5px;
     }
 
     .contacts {
@@ -289,5 +298,9 @@ footer {
 
     h2 {
         font-size: 26px;
+    }
+
+    .projects img {
+        height: 250px;
     }
 }
