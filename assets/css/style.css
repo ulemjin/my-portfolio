@@ -22,7 +22,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--primary-color);
-    padding: 15px 35px;
+    padding: 10px 35px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -59,7 +59,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 7px rgba(255, 255, 255, 0.8);
@@ -123,6 +123,7 @@ h2 {
     justify-content: space-around;
     align-content: flex-start;
 }*/
+
 
 .bio p {
     line-height: 1.7;
@@ -195,4 +196,5 @@ h2 {
 .flex-row {
     display: flex;
     flex-flow: row wrap;
+    scroll-margin-top: 3em;
 }
