@@ -311,4 +311,8 @@ footer {
     .projects img {
         height: 250px;
     }
+
+    .flex-row {
+        display: revert;
+    }
 }
