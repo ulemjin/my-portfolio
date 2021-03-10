@@ -301,6 +301,13 @@ footer {
         font-size: 26px;
     }
 
+    .projects {
+        display: flex;
+        flex: 1;
+        flex-flow: column;
+        overflow: auto;
+    }
+
     .projects img {
         height: 250px;
     }
