@@ -302,7 +302,7 @@ footer {
     }
 
     .projects {
-        display: flex;
+        display: revert;
         flex: 1;
         flex-flow: column;
         overflow: auto;
