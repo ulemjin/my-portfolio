@@ -267,8 +267,9 @@ footer {
     }
 
     .projects {
-        flex-flow: column wrap;
+        flex-flow: column;
         margin: 0 auto;
+        overflow: auto;
     }
 
     .project {
